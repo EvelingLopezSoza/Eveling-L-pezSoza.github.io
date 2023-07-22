@@ -1,0 +1,25 @@
+h1{
+    color: rgb(43, 10, 228);
+    font-family: 'Arial Black';
+    font-size: 50px;
+}
+h2{
+    color: rgb(223, 29, 136);
+    font-family: Arial Black;
+    font-size: 100px;
+}
+/*body{
+    background-image: url('../IMG/Imagen\ Laboratorios\ 2020.png');
+}*/
+@keyframes Fondo{
+    0%{background-color: red;}
+    20%{background-color: blue;}
+    50%{background-color: green;}
+    88%{background-color: yellow;}
+}
+body{
+    animation:Fondo;
+    animation-name:Fondo;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
